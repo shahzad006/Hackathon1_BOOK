@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Technical Accuracy**: All technical claims, code, and instructions are verifiable against authoritative sources (e.g., official documentation, source code).
+- [ ] **Clarity**: The proposed structure and content plan are designed for clarity, targeting developers, students, and professionals. Diagrams and examples are planned where necessary.
+- [ ] **Modularity**: The feature plan aligns with Docusaurus's modular structure (e.g., chapters, sections, sidebars). Content is planned as `.mdx` files.
+- [ ] **Consistency**: The plan accounts for maintaining consistency in terminology, formatting, and style, referencing the project's style guide.
+- [ ] **Practical Applicability**: The plan includes the creation of practical examples, code snippets, and workflows. All code is planned to be testable and runnable.
+- [ ] **Reproducibility**: The plan ensures all technical steps, instructions, and code can be reliably reproduced by the reader. Diagrams are planned in a reproducible format (e.g., Mermaid, SVG).
+- [ ] **Constraints Adherence**: The plan respects the book's constraints (word count, file structure, open-source resources).
 
 ## Project Structure
 

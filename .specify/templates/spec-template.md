@@ -5,111 +5,51 @@
 **Status**: Draft  
 **Input**: User description: "$ARGUMENTS"
 
-## User Scenarios & Testing *(mandatory)*
+## Reader Scenarios & Chapter Goals *(mandatory)*
 
 <!--
-  IMPORTANT: User stories should be PRIORITIZED as user journeys ordered by importance.
-  Each user story/journey must be INDEPENDENTLY TESTABLE - meaning if you implement just ONE of them,
-  you should still have a viable MVP (Minimum Viable Product) that delivers value.
-  
-  Assign priorities (P1, P2, P3, etc.) to each story, where P1 is the most critical.
-  Think of each story as a standalone slice of functionality that can be:
-  - Developed independently
-  - Tested independently
-  - Deployed independently
-  - Demonstrated to users independently
+  IMPORTANT: Reader scenarios should be PRIORITIZED by learning journey.
+  Each chapter/section must be INDEPENDENTLY valuable.
+
+  Assign priorities (P1, P2, P3, etc.) to each chapter, where P1 is the most critical.
 -->
 
-### User Story 1 - [Brief Title] (Priority: P1)
+### Chapter 1 - [Brief Title] (Priority: P1)
 
-[Describe this user journey in plain language]
-
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently - e.g., "Can be fully tested by [specific action] and delivers [specific value]"]
-
-**Acceptance Scenarios**:
-
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
-2. **Given** [initial state], **When** [action], **Then** [expected outcome]
-
----
-
-### User Story 2 - [Brief Title] (Priority: P2)
-
-[Describe this user journey in plain language]
+[Describe the learning objectives for this chapter]
 
 **Why this priority**: [Explain the value and why it has this priority level]
 
-**Independent Test**: [Describe how this can be tested independently]
+**Independent Test**: [Describe how this can be tested independently - e.g., "A reader can complete the tutorial and achieve a specific outcome"]
 
 **Acceptance Scenarios**:
 
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
+1. **Given** [initial knowledge], **When** [reading this chapter], **Then** [the reader can understand and apply a specific concept]
+2. **Given** [a problem], **When** [applying the chapter's content], **Then** [the reader can solve the problem]
 
 ---
-
-### User Story 3 - [Brief Title] (Priority: P3)
-
-[Describe this user journey in plain language]
-
-**Why this priority**: [Explain the value and why it has this priority level]
-
-**Independent Test**: [Describe how this can be tested independently]
-
-**Acceptance Scenarios**:
-
-1. **Given** [initial state], **When** [action], **Then** [expected outcome]
-
----
-
-[Add more user stories as needed, each with an assigned priority]
-
-### Edge Cases
-
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right edge cases.
--->
-
-- What happens when [boundary condition]?
-- How does system handle [error scenario]?
 
 ## Requirements *(mandatory)*
 
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right functional requirements.
--->
+### Content Requirements
 
-### Functional Requirements
+- **CR-001**: Chapter MUST [specific content, e.g., "explain the core concepts of Spec-Driven Development"]
+- **CR-002**: Chapter MUST [specific example, e.g., "provide a runnable code example for setting up a Docusaurus project"]
+- **CR-003**: All technical claims MUST be [validation, e.g., "validated against official documentation"]
+- **CR-004**: The chapter's tone MUST be [style, e.g., "instructional, friendly, and technically precise"]
+- **CR-005**: All diagrams and images MUST be [format, e.g., "reproducible in Mermaid or SVG"]
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+### Key Concepts *(include if feature involves new terminology)*
 
-*Example of marking unclear requirements:*
-
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
-
-### Key Entities *(include if feature involves data)*
-
-- **[Entity 1]**: [What it represents, key attributes without implementation]
-- **[Entity 2]**: [What it represents, relationships to other entities]
+- **[Concept 1]**: [Definition and relevance]
+- **[Concept 2]**: [Definition and relevance]
 
 ## Success Criteria *(mandatory)*
 
-<!--
-  ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
--->
-
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-001**: [Clarity, e.g., "The chapter is understandable by the target audience (developers, students)"]
+- **SC-002**: [Accuracy, e.g., "All technical information is accurate and up-to-date"]
+- **SC-003**: [Applicability, e.g., "Readers can successfully apply the knowledge from the chapter to a real-world problem"]
+- **SC-004**: [Engagement, e.g., "The chapter includes hands-on tutorials and examples (at least 30% of content)"]
+
