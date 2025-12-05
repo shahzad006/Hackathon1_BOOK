@@ -1,55 +1,65 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 -> 1.0.0
+- Modified principles: All principles have been updated based on the user's input.
+- Added sections: "Key Standards" and "Constraints"
+- Removed sections: None
+- Templates requiring updates:
+    - ✅ .specify/templates/plan-template.md
+    - ✅ .specify/templates/spec-template.md
+    - ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
+
+# AI/Spec-Driven Technical Book Creation using Docusaurus, Spec-Kit Plus, and Gemini Code Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+Technical accuracy with verifiable, authoritative sources. All factual/technical claims must be validated with official documentation or reputable sources.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity
+Clarity suitable for developers, students, and tech professionals. Use diagrams, examples, and code blocks where needed for developer clarity. Writing tone: instructional, friendly, and technically precise.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Modularity
+Modular, spec-driven writing aligned with Docusaurus structure. The folder and sidebar structure must follow Docusaurus best practices. Content must be delivered in Docusaurus-friendly Markdown (.mdx).
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Consistency
+Consistency in terminology, formatting, and style across the entire book. Citation style will be Markdown inline links with a reference list per chapter.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Practical Applicability
+Practical applicability with examples, code snippets, and workflows. Code samples must be tested, runnable, and consistent with the Docusaurus version used. A minimum of 30% of content should be hands-on (tutorials, examples, demos).
 
-### [PRINCIPLE_6_NAME]
+### VI. Reproducibility
+Reproducibility of all technical steps and instructions. Ensure compatibility with GitHub Pages deployment (links, paths, file structure). All diagrams must be reproducible (Mermaid or SVG preferred).
 
+## Key Standards
+- All factual/technical claims must be validated with official documentation or reputable sources
+- Citation style: Markdown inline links + reference list per chapter
+- Use diagrams, examples, and code blocks where needed for developer clarity
+- Code samples must be tested, runnable, and consistent with Docusaurus version used
+- Writing tone: instructional, friendly, and technically precise
+- Minimum 30% content should be hands-on (tutorials, examples, demos)
+- Ensure compatibility with GitHub Pages deployment (links, paths, file structure)
 
-[PRINCIPLE__DESCRIPTION]
+## Constraints
+- Complete book length: 20,000–40,000 words
+- Each chapter: 1,000–3,000 words
+- Content delivered in Docusaurus-friendly Markdown (.mdx)
+- Folder + sidebar structure must follow Docusaurus best practices
+- Only open-source, non-restricted resources may be quoted or used
+- All diagrams must be reproducible (Mermaid or SVG preferred)
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Governance & Success Criteria
+This constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All PRs and reviews must verify compliance with this constitution.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+The project is successful when it meets these criteria:
+- The book builds cleanly in Docusaurus with no warnings or broken links.
+- It deploys successfully to GitHub Pages.
+- All content is internally consistent, technically accurate, and free of plagiarism.
+- Code examples compile and run without errors.
+- It provides a clear learning path from beginner to practitioner level.
+- The readability score is within the Flesch-Kincaid Grade 8–12 range.
+- The final book meets the project’s educational and technical goals.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
-
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
-
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-05
