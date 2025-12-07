@@ -11,7 +11,7 @@ Sync Impact Report:
 - Follow-up TODOs: None
 -->
 
-# Physical AI & Humanoid Robotics 
+# AI/Spec-Driven Technical Book Creation using Docusaurus, Spec-Kit Plus, and Gemini Code Constitution
 
 ## Core Principles
 
@@ -22,7 +22,7 @@ Technical accuracy with verifiable, authoritative sources. All factual/technical
 Clarity suitable for developers, students, and tech professionals. Use diagrams, examples, and code blocks where needed for developer clarity. Writing tone: instructional, friendly, and technically precise.
 
 ### III. Modularity
-Modular, spec-driven writing aligned with Docusaurus structure. The folder and sidebar structure must follow Docusaurus best practices. Content must be delivered in Docusaurus-friendly Markdown (.md).
+Modular, spec-driven writing aligned with Docusaurus structure. The folder and sidebar structure must follow Docusaurus best practices. Content must be delivered in Docusaurus-friendly Markdown (.mdx).
 
 ### IV. Consistency
 Consistency in terminology, formatting, and style across the entire book. Citation style will be Markdown inline links with a reference list per chapter.
@@ -45,7 +45,7 @@ Reproducibility of all technical steps and instructions. Ensure compatibility wi
 ## Constraints
 - Complete book length: 20,000–40,000 words
 - Each chapter: 1,000–3,000 words
-- Content delivered in Docusaurus-friendly Markdown (.md)
+- Content delivered in Docusaurus-friendly Markdown (.mdx)
 - Folder + sidebar structure must follow Docusaurus best practices
 - Only open-source, non-restricted resources may be quoted or used
 - All diagrams must be reproducible (Mermaid or SVG preferred)

@@ -28,7 +28,7 @@ tests:
 
 /sp.constitution
 
-Project: Physical AI & Humanoid Robotics Creation using Docusaurus, Spec-Kit Plus, and Gemini Code
+Project: AI/Spec-Driven Technical Book Creation using Docusaurus, Spec-Kit Plus, and Gemini Code
 
 Core Principles:
 - Technical accuracy with verifiable, authoritative sources
