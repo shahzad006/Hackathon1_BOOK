@@ -1,0 +1,22 @@
+{
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/docusaurus/build/$1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/docusaurus/build/$1"
+    }
+  ],
+  "installCommand": "npm install --prefix docusaurus",
+  "buildCommand": "npm run build --prefix docusaurus",
+  "outputDirectory": "docusaurus/build"
+}
