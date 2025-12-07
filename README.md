@@ -1,1 +1,1 @@
-# Hackathon1_Physical-AI-AI-Robotics
+# Hackathon1_Physical-AI-Robotics
